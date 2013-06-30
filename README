@@ -1,0 +1,10 @@
+This is a mirror of http://www.vim.org/scripts/script.php?script_id=4642
+
+This plugin introduces a command mode mappings (does not work in visual mode yet):
+
+1. <Tab> (move right)
+2. <Shift>+<Tab> (move left)
+
+Depending on whether you are moving to the left or right, by doing it in a bisectional fashion, you're skipping half the content to the start or end of the line.
+
+The feature is quite simplistic but saves a lot of time when you need to access content in the middle the current line over and over.
